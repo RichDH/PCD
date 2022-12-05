@@ -1,5 +1,5 @@
 clear; clc;
-pisang = imread('pisang.png');
+pisang = imread('banana.png');
 pisang = im2double(pisang);
 
 imshow(pisang);
@@ -27,3 +27,4 @@ figure;imshow(smallholes);
 
 new = pisang_binar | smallholes;
 figure;imshow(new);
+

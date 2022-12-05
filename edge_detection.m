@@ -67,6 +67,8 @@ figure, imshow(RGB);
 total = numel(BWfinal);
 Luas = length(BWfinal(BWfinal~=0));
 
+B1 = rgb2gray(RGB);
+
 %deteksi warna
 HSV = rgb2hsv(RGB);
 

@@ -45,7 +45,6 @@ kelas_latih = cell(2,1);
 kelas_latih(1) = 'buah pisang';
 kelas_latih(2) = 'bukan pisang';
 
-%Naives Bayes
 Mdl = fitcnb(matriks, kelas_latih);
 
 hasil_latih = predict(Mdl, matriks);
